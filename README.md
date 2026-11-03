@@ -70,7 +70,7 @@ An automated, production-style data engineering pipeline ingesting catalog data 
 │   ├── 02_bronze_to_silver.py     # Schema parsing, dedup, and idempotent MERGE INTO
 │   └── 03_silver_to_gold.py       # Artist summary aggregations for reporting
 │   ├── 04_master_orchestrator.py  # Alternative notebook runner via dbutils.notebook.run
-├── docs/assets/                   # Architecture & dashboard screenshots
+├── docs/assets/                   # Architecture screenshots
 ├── .gitignore
 └── README.md
 ```
