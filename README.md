@@ -66,7 +66,6 @@ An automated, production-style data engineering pipeline ingesting catalog data 
 
 ```text
 ├── notebooks/
-|
 │   ├── 01_extract_to_bronze.py    # Spotify API extraction to raw Bronze Delta table
 │   ├── 02_bronze_to_silver.py     # Schema parsing, dedup, and idempotent MERGE INTO
 │   └── 03_silver_to_gold.py       # Artist summary aggregations for reporting
