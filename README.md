@@ -66,10 +66,11 @@ An automated, production-style data engineering pipeline ingesting catalog data 
 
 ```text
 ├── notebooks/
-│   ├── 00_master_orchestrator.py  # Alternative notebook runner via dbutils.notebook.run
+|
 │   ├── 01_extract_to_bronze.py    # Spotify API extraction to raw Bronze Delta table
 │   ├── 02_bronze_to_silver.py     # Schema parsing, dedup, and idempotent MERGE INTO
 │   └── 03_silver_to_gold.py       # Artist summary aggregations for reporting
+│   ├── 04_master_orchestrator.py  # Alternative notebook runner via dbutils.notebook.run
 ├── docs/assets/                   # Architecture & dashboard screenshots
 ├── .gitignore
 └── README.md
