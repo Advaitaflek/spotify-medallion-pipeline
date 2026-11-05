@@ -39,6 +39,12 @@ An automated, production-style data engineering pipeline ingesting catalog data 
 
 ---
 
+## Architecture Diagram
+
+![Architecture Diagram](docs\assets\Spotify_Medallion_Architecture_diagram.png)
+
+---
+
 ## Key Pipeline Features
 
 1. **Authentication & Rate Handling:**
